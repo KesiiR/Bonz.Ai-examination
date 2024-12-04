@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/64ead426be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="main__container">
+      <header class="header__container">
+        <section class="header__links">
+          <section class="header__logo">
+            <img
+              src="./assets/logo/bonz.ai-logo-white-landscape.png"
+              alt="logo"
+              class="logo"
+            />
+          </section>
+          <nav class="header__nav">
+            <ul class="header__nav--list">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
+              <li>
+                <button class="button button--primary nav__btn">
+                  Book now
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <section class="form__container">
+        <h3>Search & Book</h3>
+        <form action="#">
+          <article class="form__container--combined">
+            <article class="form__container--field">
+              <label for="Checkin">Check in</label>
+              <input type="date" id="Checkin" required />
+            </article>
+            <article class="form__container--field">
+              <label for="Checkout">Check out</label>
+              <input type="date" id="Checkout" required />
+            </article>
+          </article>
+          <article class="form__container--combined">
+            <article class="form__container--field">
+              <label for="Rooms">Room</label>
+              <select id="Rooms" name="rooms" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </article>
+            <article class="form__container--field">
+              <label for="Guests">Guests</label>
+              <select id="Guests" name="guests" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </article>
+          </article>
+          <article class="form__container--field">
+            <button class="button button--primary">Search</button>
+          </article>
+        </form>
+      </section>
+      <main class="bedroom__container">
+        <article class="bedroom bedroom--1">
+          <img
+            src="./assets/photos/02-day.jpg"
+            alt="Bedroom 1"
+            class="bedroom__image"
+          />
+          <section class="bedroom__info">
+            <h2 class="bedroom__title">The Skyline Suite</h2>
+
+            <ul class="bedroom__iconlist">
+              <li>
+                <i class="fa-solid fa-mug-saucer iconbreakfast"></i>
+                <span class="icon-text">Breakfast</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-dumbbell icongym"></i>
+                <span class="icon-text">Gym</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-hot-tub-person iconhottub"></i>
+                <span class="icon-text">Hottub</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-bed iconbed"></i>
+                <span class="icon-text">2 beds</span>
+              </li>
+            </ul>
+            <p class="bedroom__text">
+              The room is cozy, with soft, warm lighting that casts a relaxing
+              glow. A comfortable armchair sits by the window, offering a
+              peaceful view of the garden outside.
+            </p>
+            <button class="button button--primary">Choose this</button>
+          </section>
+        </article>
+        <article class="bedroom bedroom--2">
+          <img
+            src="./assets/photos/05-day.jpg"
+            alt="Bedroom 2"
+            class="bedroom__image"
+          />
+          <section class="bedroom__info">
+            <h2 class="bedroom__title">Serenity Retreat</h2>
+            <ul class="bedroom__iconlist">
+              <li>
+                <i class="fa-solid fa-mug-saucer iconbreakfast"></i>
+                <span class="icon-text">Breakfast</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-dumbbell icongym"></i>
+                <span class="icon-text">Gym</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-hot-tub-person iconhottub"></i>
+                <span class="icon-text">Hottub</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-bed iconbed"></i>
+                <span class="icon-text">2 beds</span>
+              </li>
+            </ul>
+            <p class="bedroom__text">
+              Designed for comfort, the hotel room features a spacious seating
+              area and modern amenities. Soft lighting and elegant decor create
+              a welcoming, serene atmosphere.
+            </p>
+            <button class="button button--primary">Choose this</button>
+          </section>
+        </article>
+        <article class="bedroom bedroom--3">
+          <img
+            src="./assets/photos/07-day.jpg"
+            alt="Bedroom 3"
+            class="bedroom__image"
+          />
+          <section class="bedroom__info">
+            <h2 class="bedroom__title">Ocean Breeze Loft</h2>
+            <ul class="bedroom__iconlist">
+              <li>
+                <i class="fa-solid fa-mug-saucer iconbreakfast"></i>
+                <span class="icon-text">Breakfast</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-dumbbell icongym"></i>
+                <span class="icon-text">Gym</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-hot-tub-person iconhottub"></i>
+                <span class="icon-text">Hottub</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-bed iconbed"></i>
+                <span class="icon-text">3 beds</span>
+              </li>
+            </ul>
+            <p class="bedroom__text">
+              This hotel room combines contemporary style with convenience,
+              featuring a large flat-screen TV and a cozy desk space. The sleek
+              bathroom offers a rainfall shower for ultimate relaxation.
+            </p>
+            <button class="button button--primary">Choose this</button>
+          </section>
+        </article>
+        <article class="bedroom bedroom--3">
+          <img
+            src="./assets/photos/04-day.jpg"
+            alt="Bedroom 4"
+            class="bedroom__image"
+          />
+          <section class="bedroom__info">
+            <h2 class="bedroom__title">The Garden Haven</h2>
+            <ul class="bedroom__iconlist">
+              <li>
+                <i class="fa-solid fa-mug-saucer iconbreakfast"></i>
+                <span class="icon-text">Breakfast</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-dumbbell icongym"></i>
+                <span class="icon-text">Gym</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-hot-tub-person iconhottub"></i>
+                <span class="icon-text">Hottub</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-bed iconbed"></i>
+                <span class="icon-text">3 beds</span>
+              </li>
+            </ul>
+            <p class="bedroom__text">
+              The hotel room is a perfect blend of comfort and sophistication,
+              with high-end furnishings and a plush bed. Guests can enjoy a
+              peaceful retreat with a minibar and mood lighting.
+            </p>
+            <button class="button button--primary">Choose this</button>
+          </section>
+        </article>
+      </main>
+      <footer class="footer">
+        <section class="footer__container">
+          <div class="footer__logo">
+            <img
+              src="./assets/logo/bonz.ai-logo-white-landscape.png"
+              alt="Bonzai Hotels Logo"
+            />
+          </div>
+          <aside class="footer__followus">
+            <p>Follow us:</p>
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </aside>
+          <section class="footer__info" id="footer__info">
+            <p>
+              <strong>Kontakt & adress:</strong><br />
+              Askargatan 69,<br />
+              Stockholm<br />
+              18 205
+            </p>
+            <p>
+              <strong>E-post:</strong>
+              <a href="mailto:info@bonz.ai">info@bonz.ai</a>
+            </p>
+            <p><strong>Receptionist:</strong> 08-52395</p>
+          </section>
+        </section>
+      </footer>
+    </main>
+  </body>
+</html>
