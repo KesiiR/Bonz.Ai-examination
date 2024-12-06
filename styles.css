@@ -306,7 +306,8 @@ label {
 }
 
 .experiences__item--description {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+  padding: 10px;
   color: var(--text-primary);
 }
 
